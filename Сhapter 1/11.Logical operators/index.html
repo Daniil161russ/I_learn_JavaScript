@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Logical operators</title>
+</head>
+<body>
+
+	<!-- Task 1 -->
+	<script>
+		
+		let age = prompt('Введите свой возраст..' ,'');
+
+		if ( age >= 14 && age <= 90 ) {
+			alert('Добро пожаловать !')
+		} else {
+			alert('Ваш возраст не позволяет вам зайти..')
+		}
+
+	</script>
+
+	<!-- Task 2.1 -->
+	<script>
+		let age = prompt('Введите свой возраст..(еще раз)' ,'');
+
+		if ( !(age >= 14) || !(age <= 90) ) {
+			alert('Ваш возраст не позволяет вам зайти..')
+		} else {
+			alert('Добро пожаловать !')
+		}
+	</script>
+
+	<!-- Task 2.2 -->
+	<script>
+		let age = prompt('Введите свой возраст..(еще раз)' ,'');
+
+		if ( age < 14 || age > 90 ) {
+			alert('Ваш возраст не позволяет вам зайти..')
+		} else {
+			alert('Добро пожаловать !')
+		}
+	</script>
+
+	<script src="script.js"></script>
+
+</body>
+</html>

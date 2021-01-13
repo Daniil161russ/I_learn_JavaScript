@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>if... else</title>
+</head>
+<body>
+
+	<!-- Task 2 -->
+	<script>
+		let officialName = prompt('Какое официальное название у JavaScript?', '');
+		
+		if (officialName == 'ECMAScript') {
+			alert('Верно!')
+		} else {
+			alert('Не знаете? ECMAScript!')
+		}
+
+	</script>
+
+	<!-- Task 3 -->
+	<script>
+		let number = prompt('Введите число..', '');
+
+		if (number > 0) {
+			alert(1)
+		} else if (number < 0) {
+			alert(-1)
+		} else {
+			alert(0)
+		}
+
+	</script>
+
+	<!-- Task 4 -->
+	<script>
+		let result = (a + b < 4) ?  'Мало' : 'Много';
+	</script>
+
+	<!-- Task 5 -->
+	<script>
+		let message = (login == 'Сотрудник') ? 'Привет' :
+		(login == 'Директор') ? 'Здравствуйте' :
+		(login == '') ? 'Нет логина' : '';
+		
+	</script>
+</body>
+</html>
